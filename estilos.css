@@ -577,7 +577,46 @@ select {
   margin: 30px;
 }
 
+.sucursales {
+  background-image: linear-gradient(to right, #d8d0d4, #c6c0c4, #b3b0b4, #a2a0a3, #919093, #828284, #747475, #666666, #565656, #464646, #373737, #282828);
+}
+
+.h4-sucursales {
+  color: #f8f8f8;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.titulo-sucu {
+  text-align: center;
+  font-size: 80px;
+  padding: 20px;
+}
+
+.card-lista-sucursales {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: x;
+  margin-left: 50px;
+}
+
+.card-img-sucursales {
+  border: 5px solid black;
+  display: inline-block;
+  height: 460px;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 479px) {
+  h1 {
+    color: rgb(22, 21, 21);
+    background-color: #8C8C8C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+  }
   .carrusel div img {
     width: 250px;
     height: 100vh;
@@ -629,6 +668,22 @@ select {
     grid-template-columns: repeat(1, 1fr);
     gap: 25px;
     margin: 30px;
+  }
+  .card-lista-sucursales {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .titulo-sucu {
+    font-size: 30px;
+  }
+  iframe {
+    height: 220px;
+    width: 220px;
+  }
+  .card-img-sucursales {
+    border: 5px solid black;
+    display: inline-block;
+    height: 230px;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 759px) {
@@ -728,6 +783,22 @@ select {
     margin: 40px;
     flex-direction: column;
   }
+  .card-lista-sucursales {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .titulo-sucu {
+    font-size: 30px;
+  }
+  iframe {
+    height: 400px;
+    width: 400px;
+  }
+  .card-img-sucursales {
+    border: 5px solid black;
+    display: inline-block;
+    height: 410px;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .galeria-index {
@@ -806,6 +877,22 @@ select {
     /* align-content: center; */
     flex-direction: column;
   }
+  .card-lista-sucursales {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .titulo-sucu {
+    font-size: 40px;
+  }
+  iframe {
+    height: 420px;
+    width: 320px;
+  }
+  .card-img-sucursales {
+    border: 5px solid black;
+    display: inline-block;
+    height: 430px;
+  }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1027px) {
   .galeria-index {
@@ -851,5 +938,22 @@ select {
     gap: 10px;
     margin: 0px;
     margin-left: 80px;
+  }
+  .card-lista-sucursales {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+  .titulo-sucu {
+    font-size: 40px;
+  }
+  iframe {
+    height: 620px;
+    width: 450px;
+  }
+  .card-img-sucursales {
+    border: 5px solid black;
+    display: inline-block;
+    height: 630px;
   }
 }/*# sourceMappingURL=estilos.css.map */
